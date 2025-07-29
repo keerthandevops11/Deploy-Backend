@@ -7,7 +7,7 @@ const app = express();
 
 // ✅ Enable CORS for your GitHub Pages domain
 app.use(cors({
-  origin: "https://keerthandevops11.github.io/trigger"
+  origin: "https://keerthandevops11.github.io"
 }));
 
 app.use(express.json());
