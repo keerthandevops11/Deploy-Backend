@@ -17,8 +17,8 @@ app.post("/trigger", async (req, res) => {
   if (!vm_type) return res.status(400).json({ error: "vm_type is required" });
 
   const token = process.env.GITHUB_TOKEN;
-  const owner = "Purvash-143";
-  const repo = "platform";
+  const owner = "keerthandevops11";
+  const repo = "Platform-Frontend";
   const url = `https://api.github.com/repos/${owner}/${repo}/actions/workflows/deploy.yml/dispatches`;
 
   try {
